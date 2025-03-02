@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import Expense from "./components/Expense";
 import RecentTransaction from "./components/RecentTransaction";
 import Sidebar from "./components/Sidebar";
 import SummaryCard from "./components/SummaryCard";
 import SummaryTemp from "./components/SummaryTemp";
+import WeeklyActivity from "./components/WeeklyActivity";
 import Footer from "./shared/Footer";
 import Header from "./shared/Header";
 
@@ -29,6 +31,14 @@ const App = () => {
             <SummaryCard />
             <SummaryTemp />
             <RecentTransaction />
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-7 my-4 justify-center items-center">
+            <div className=" md:col-span-7">
+              <WeeklyActivity />
+            </div>
+            <div className="md:col-span-5">
+              <Expense />
+            </div>
           </div>
         </main>
         <Footer />
