@@ -136,7 +136,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
                       height="24.000000"
                       transform="translate(0.500000 0.500000)"
                       fill="white"
-                      fill-opacity="0"
+                      fillOpacity="0"
                     />
                   </clipPath>
                 </defs>
@@ -147,7 +147,7 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
                   height="24.000000"
                   transform="translate(0.500000 0.500000)"
                   fill="#C5C5CF"
-                  fill-opacity="0"
+                  fillOpacity="0"
                 />
                 <g clip-path="url(#clip0_315)">
                   <path
