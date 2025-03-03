@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
+import BalanceHistory from "./components/BalanceHistory";
 import Expense from "./components/Expense";
+import QuickTransfer from "./components/QuickTransfer";
 import RecentTransaction from "./components/RecentTransaction";
 import Sidebar from "./components/Sidebar";
 import SummaryCard from "./components/SummaryCard";
@@ -38,6 +40,14 @@ const App = () => {
             </div>
             <div className="md:col-span-5">
               <Expense />
+            </div>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[30px] my-4">
+            <div className="col-span-4">
+              <QuickTransfer />
+            </div>
+            <div className="col-span-8">
+              <BalanceHistory />
             </div>
           </div>
         </main>

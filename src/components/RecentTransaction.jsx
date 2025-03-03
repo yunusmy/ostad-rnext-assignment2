@@ -32,12 +32,12 @@ const RecentTransaction = () => {
   return (
     <>
       <div>
-        <h2 className="font-semibold mb-1">Recent Transaction</h2>
+        <h2 className="font-semibold mb-2">Recent Transaction</h2>
         <div
           className="min-w-[350px] w-full min-h-[235px] rounded-[25px] 
           bg-gradient-to-r from-[#FFF] to-[#FFF] via-[#FFF] flex flex-col text-black"
         >
-          <div className="flex flex-col gap-2 m-5">
+          <div className="flex flex-col gap-[30px] m-5">
             {cardData.map((card, index) => (
               <div key={index} className="flex gap-6 ">
                 <div className="w-[30px] h-[30px] rounded-full overflow-hidden">
@@ -51,8 +51,8 @@ const RecentTransaction = () => {
                   <span className="font-medium text-md">{card.name}</span>
                   <span className="text-sm text-gray-500">{card.date}</span>
                 </div>
-                <div className="text-right">
-                  <h3 className="text-md font-bold text-green-500">
+                <div className="text-right flex justify-center items-center">
+                  <h3 className="text-md font-bold text-green-500 ">
                     ${card.amount}
                   </h3>
                 </div>
