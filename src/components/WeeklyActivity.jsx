@@ -69,7 +69,7 @@ const WeeklyActivity = () => {
   });
 
   useEffect(() => {
-    fetch("http://inertia-pos.manirul.xyz/api/weekly-activity-list")
+    fetch("//inertia-pos.manirul.xyz/api/weekly-activity-list")
       .then((response) => response.json())
       .then((data) => {
         if (data.status === "Success") {

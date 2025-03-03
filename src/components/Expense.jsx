@@ -11,7 +11,7 @@ const Expense = () => {
   });
 
   useEffect(() => {
-    fetch("http://inertia-pos.manirul.xyz/api/expense-list")
+    fetch("//inertia-pos.manirul.xyz/api/expense-list")
       .then((response) => response.json())
       .then((data) => {
         if (data.status === "Success") {

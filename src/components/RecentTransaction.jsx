@@ -42,7 +42,7 @@ const RecentTransaction = () => {
               <div key={index} className="flex gap-6 ">
                 <div className="w-[30px] h-[30px] rounded-full overflow-hidden">
                   <img
-                    src={`http://inertia-pos.manirul.xyz/images/${card.image}`}
+                    src={`//inertia-pos.manirul.xyz/images/${card.image}`}
                     alt="icon"
                     className="w-full h-full object-cover"
                   />

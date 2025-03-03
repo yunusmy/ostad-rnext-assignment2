@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar";
 import SummaryCard from "./components/SummaryCard";
 import SummaryTemp from "./components/SummaryTemp";
 import WeeklyActivity from "./components/WeeklyActivity";
-import Footer from "./shared/Footer";
 import Header from "./shared/Header";
 
 const App = () => {
@@ -51,7 +50,7 @@ const App = () => {
             </div>
           </div>
         </main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
