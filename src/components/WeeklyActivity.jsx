@@ -112,7 +112,7 @@ const WeeklyActivity = () => {
           options={chartData.options}
           series={chartData.series}
           type="bar"
-          height={350}
+          height={250}
         />
       </div>
     </div>
